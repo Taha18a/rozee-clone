@@ -1,0 +1,60 @@
+.container-fluid{
+    border: 1px solid black;
+}
+.nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+
+    
+}
+.icon{
+    background-color: green;
+}
+.icon1{
+    background-color: blue;
+}
+.icon2{
+    background-color: lightblue;
+}
+.mainbox{
+    border:1px solid black;
+    width:200vw;
+    height:50vh;
+}
+.text h1{
+    text-align: center;
+
+}
+.mainbox{
+    padding-left: 500px;
+    background-image: url(./Assets/banner_bg.png);
+}
+.para{
+    border: 1px solid white;
+    width:200vw;
+    height:20vh;
+    background-color: aliceblue;
+    display: flex;
+    text-align: center;
+    
+}
+.carousel{
+    border:1px solid silver;
+    width: 200vw;
+    height:50vh;
+    background-image: url(./Assets/fresh-section.webp);
+ 
+}
+
+
+
+
+
+
+@media  screen and (max-width:425px) {
+    .nav{
+        display: flex;
+    }
+}
